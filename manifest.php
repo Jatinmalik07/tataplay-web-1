@@ -29,7 +29,7 @@ if ($channelData === null) {
 
 $currentTimestamp = time();
 
-$beginTimestamp = $currentTimestamp - (8 * 24 * 60 * 60);
+$beginTimestamp = $currentTimestamp - (364 * 24 * 60 * 60);
 
 
 $endTimestamp = $currentTimestamp + (2 * 24 * 60 * 60);
