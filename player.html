@@ -103,8 +103,9 @@
         // JW Player configuration
     const urlParams = new URLSearchParams(window.location.search);
     const channelId = urlParams.get('channel');
-    const streamUrl = `https://tataplayapp.vercel.app/manifest.php?id=${channelId}`;
-    const licenseUrl = `https://tataplayapp.vercel.app/lic.php?id=${channelId}`;
+    const streamUrl = `https://example.com/manifest.php?id=${channelId}`;
+    const licenseUrl = `https://example.com/lic.php?id=${channelId}`;
+
 
     fetchLicenseData(licenseUrl)
       .then(licenseData => {
